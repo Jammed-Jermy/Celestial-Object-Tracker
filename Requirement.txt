@@ -1,0 +1,14 @@
+#Requirements
+
+The script requires the following modules to be installed:
+
+  -ephem
+  -math
+  -webbrowser
+  -time
+  -datetime
+  -pandas
+
+To install the necessary modules, run the following command:
+
+'pip install ephem pandas'
