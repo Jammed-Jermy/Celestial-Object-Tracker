@@ -1,38 +1,71 @@
+#############################################################################################################################################################################################################
+THIS PROGRAM IS NOT FINISHED YET, I WILL BE UPDATING THE NEW VERISONS OF THE PROGRAM, SOME FEATURES MAY NOT WORK
+############################################################################################################################################################################################################
 # Celestial Object Tracker
 
-Celestial Object Tracker is a Python script that allows users to check and track the position of celestial objects, such as the Moon, Sun, planets, and more. 
-It utilizes the ephem module for celestial calculations and provides information about the azimuth and altitude of the selected celestial object.
+This project is a Python program that allows you to track and obtain information about celestial objects such as the Sun, Moon, planets, and more. It utilizes the `ephem` module to perform calculations and provide accurate data.
 
+## Prerequisites
 
+Before running this program, make sure you have the following modules installed:
 
-# Usage
+- `ephem`
+- `math`
+- `webbrowser`
+- `time`
+- `datetime`
+- `pandas`
 
-    Clone the repository or download the source code.
-    Install the required modules as mentioned in the Requirements section.
-    Run the script in a Python environment.
-    Choose an option from the menu to perform the desired operation:
-        Check the position of a celestial object.
-        Track the position of a celestial object.
-        Get the time of sunset.
-        Get the time of sunrise.
-        View the visibility of all planets.
-        Exit the program.
+You can install these modules using pip:
 
+```
+pip install ephem math webbrowser pandas
+```
 
-# Runing
+## Getting Started
+
+To use this program, follow the steps below:
 
 1. Clone the repository or download the source code.
-2. Install the required modules as mentioned in the Requirements section.
-3. Run the script in a Python environment.
+2. Open the Python file (`celestial_object_tracker.py`) in a text editor or an IDE.
 
-Note: For the check and track position options, you will be prompted to enter the name of the celestial object you want to observe.
-Contributions
+## Setting Up Your Observer's Location
 
-# Contributions
-Contributions to the Celestial Object Tracker project are welcome! 
-If you find any issues or want to enhance the functionality, feel free to create a pull request.
+In the code, you will find placeholders for the coordinates of your observer's location. Replace the `'enter_cordinates'` placeholders with the latitude and longitude of your desired location. Make sure to provide the coordinates in decimal degrees format.
 
+Example:
+```python
+observer.lon = '12.3456'  # Replace with the actual longitude
+observer.lat = '34.5678'  # Replace with the actual latitude
+```
 
-# License
+## Running the Program
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+To run the program, execute the Python script (`celestial_object_tracker.py`) using the Python interpreter. You can do this by running the following command in your terminal or command prompt:
+
+```
+python celestial_object_tracker.py
+```
+
+Once the program starts, you will be presented with a menu of options. Choose the desired option by entering the corresponding number.
+
+- Option 1: Check Position - Enter the name of a celestial body to obtain its current position.
+- Option 2: Track Position - Track the position of a celestial body for a specific duration.
+- Option 3: Sunset Time - Calculate and display the time until sunset.
+- Option 4: Sunrise Time - Calculate and display the time until sunrise.
+- Option 5: All Planets Visibility - Show a table with the visibility of all planets.
+- Option 6: Exit - Terminate the program.
+
+Follow the prompts and provide the necessary inputs to retrieve the desired information.
+
+## Contributing
+
+Contributions to this project are not accepted at the moment.
+
+## License
+
+This project is not licensed.
+
+---
+
+Feel free to customize and modify the code according to your specific requirements.
