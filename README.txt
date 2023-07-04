@@ -58,14 +58,8 @@ Once the program starts, you will be presented with a menu of options. Choose th
 
 Follow the prompts and provide the necessary inputs to retrieve the desired information.
 
-## Contributing
+## Notes
 
-Contributions to this project are not accepted at the moment.
-
-## License
-
-This project is not licensed.
-
----
-
-Feel free to customize and modify the code according to your specific requirements.
+I have created this project. It is a simple Python program that allows you to calculate the distance between two sets of coordinates. By providing the latitude and longitude values of two locations, you can quickly obtain the precise distance between them. It is not finished yet there are many features which are to be honed, and this is just an alpha phase of this project I might add more features to this project!
+Regards, 
+Jammed-Jermy
