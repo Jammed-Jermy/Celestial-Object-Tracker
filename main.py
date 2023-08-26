@@ -170,7 +170,7 @@ try:
         saturn_alt = round(math.degrees(saturn.alt), 2)
         saturn_phase = round(saturn.phase, 2)
         saturn_visibility = ""
-
+#https://pastebin.com/fkS7xB0H
         if saturn_phase < 50 or saturn_alt <18:
             saturn_visibility = "Not Visible"
         elif saturn_phase >= 50 and saturn_phase < 70 and saturn_alt >18:
